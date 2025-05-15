@@ -56,7 +56,7 @@ const Reservations: React.FC = () => {
         numberOfGuests: 1,
         cabinId: '',
       });
-    } catch (error) {
+    } catch {
       toast.error('Error al procesar la reserva. Por favor, intenta nuevamente.');
     } finally {
       setIsSubmitting(false);
