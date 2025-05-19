@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, Twitter, Mail, Phone } from 'lucide-react';
+import { Github, Instagram, Mail, Phone, Linkedin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -31,14 +31,14 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Síguenos</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-teal-500 transition">
-                <Facebook size={24} />
+              <a href="https://github.com/Enriquedonaire" target="_blank" className="hover:text-teal-500 transition">
+                <Github size={24} />
               </a>
-              <a href="#" className="hover:text-teal-500 transition">
+              <a href="https://www.instagram.com/kikidonaire" target="_blank" className="hover:text-teal-500 transition">
                 <Instagram size={24} />
               </a>
-              <a href="#" className="hover:text-teal-500 transition">
-                <Twitter size={24} />
+              <a href="https://www.linkedin.com/in/enrique-donaire" target="_blank" className="hover:text-teal-500 transition">
+                <Linkedin size={24} />
               </a>
             </div>
           </div>
